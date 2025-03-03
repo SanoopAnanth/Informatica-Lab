@@ -1,1 +1,1 @@
-This folder is for Retail excercise
+This folder is for Retail exercise
