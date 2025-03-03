@@ -1,1 +1,1 @@
-1st excercise
+1st exercise
