@@ -1,0 +1,143 @@
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6014 : Initializing session [s_m_again_n_again] at [Tue Mar 04 16:10:55 2025].
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6683 : Repository Name: [REP]
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6684 : Server Name: [IS]
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6686 : Folder: [Test]
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6685 : Workflow: [wf_duplicate_run] Run Instance Name: [] Run Id: [3]
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6992 : Operating System Type [NT]
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6101 : Mapping name: m_again_n_again.
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6703 : Session [s_m_again_n_again] is run by 64-bit Integration Service  [node01], version [10.5.2], build [0322].
+2025-03-04 16:10:55 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2025-03-04 16:10:55 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24058 : Running Partition Group [1].
+2025-03-04 16:10:55 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2025-03-04 16:10:55 : INFO : (9824 | MONITOR) : (IS | IS) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2025-03-04 16:10:55 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2025-03-04 16:10:55 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24003 : Initializing session run.
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : CMN_1569 : Server Mode: [ASCII]
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TM_6151 : The session sort order is [Binary].
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : CMN_65110 : Current Timezone:[UTC +5:30]
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : CMN_65112 : Current Process ID:[9824]
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TM_6156 : Using low precision processing.
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TM_6307 : DTM error log disabled. 
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TE_7022 : TShmWriter: Initialized
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : DBG_21694 : AGGTRANS Partition [0]: Index cache size = [178956970], Data cache size = [357913940]
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [AGGTRANS] from [178956970] to [178957128].
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [AGGTRANS] from [357913940] to [357914160].
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TE_7029 : Aggregate Information: Creating New Index and Data Files
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TE_7034 : Aggregate Information: Index file is [C:\Informatica\10.5.2\server\infa_shared\Cache\PMAGG5_5_0_3.idx]
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TE_7035 : Aggregate Information: Data file is [C:\Informatica\10.5.2\server\infa_shared\Cache\PMAGG5_5_0_3.dat]
+2025-03-04 16:10:55 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TM_6007 : DTM initialized successfully for session [s_m_again_n_again]
+2025-03-04 16:10:55 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2025-03-04 16:10:55 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Tue Mar 04 16:10:55 2025)
+2025-03-04 16:10:55 : INFO : (9824 | PRE-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2025-03-04 16:10:56 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Tue Mar 04 16:10:56 2025)
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : PETL_24006 : Starting data movement.
+2025-03-04 16:10:56 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 1829472 bytes and Block size is 65536 bytes.
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : FR_3118 : source [SQ_extra_2_sa] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-04 16:10:56 : INFO : (9824 | TRANSF_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2025-03-04 16:10:56 : INFO : (9824 | TRANSF_1_2_1) : (IS | IS) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [7].
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [8].
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table extra_trg :Writing output to: C:\Users\Administrator\Downloads\Unique.txt
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8222 : Target file [C:\Users\Administrator\Downloads\Unique.txt] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table extra_trg :Writing output to: C:\Users\Administrator\Downloads\Duplicate.txt
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8222 : Target file [C:\Users\Administrator\Downloads\Duplicate.txt] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [extra_trg]
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #2 consists of target(s) [extra_trg]
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8003 : Writer initialization complete.
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8005 : Writer run started.
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Tue Mar 04 16:10:56 2025
+
+Target tables:
+
+     extra_trg
+     extra_trg
+
+
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : FR_3076 : Skipped over [1] lines.
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Users\Administrator\Downloads\Extra_data.txt] : (Tue Mar 04 16:10:56 2025)
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16019 : Read [9] rows, read [0] error rows for source table [extra_2_sa] instance name [extra_2_sa]
+2025-03-04 16:10:56 : INFO : (9824 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-04 16:10:56 : INFO : (9824 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_extra_2_sa]. Total errors [0] 
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [extra_trg] at: Tue Mar 04 16:10:56 2025
+2025-03-04 16:10:56 : INFO : (9824 | TRANSF_1_2_1) : (IS | IS) : node01 : TE_7032 : The B-Tree being managed in files
+C:\Informatica\10.5.2\server\infa_shared\Cache\PMAGG5_5_0_3.dat for Data and
+
+C:\Informatica\10.5.2\server\infa_shared\Cache\PMAGG5_5_0_3.idx for Index has:
+	Index Size:	11
+	Row Size:	60
+	Order:		100
+	Minimum Order:	50
+	Height:		1
+	Entries:	5
+	IndexPageSize:	2296
+	IndexPages:	77943
+	DataPageSize:	540
+	DataPages:	662804
+
+2025-03-04 16:10:56 : INFO : (9824 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [AGGTRANS]. Total errors [0] 
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [extra_trg] at: Tue Mar 04 16:10:56 2025
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [extra_trg] at: Tue Mar 04 16:10:56 2025
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [extra_trg] at: Tue Mar 04 16:10:56 2025
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8035 : Load complete time: Tue Mar 04 16:10:56 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: extra_trg (Instance Name: [extra_trg])
+WRT_8038 Inserted rows - Requested: 3          Applied: 3          Rejected: 0          Affected: 3         
+
+WRT_8036 Target: extra_trg (Instance Name: [extra_trg1])
+WRT_8038 Inserted rows - Requested: 2          Applied: 2          Rejected: 0          Affected: 2         
+
+
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2025-03-04 16:10:56 : INFO : (9824 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8006 : Writer run completed.
+2025-03-04 16:10:56 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_extra_2_sa] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_extra_2_sa] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [AGGTRANS] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [extra_trg, extra_trg1] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-03-04 16:10:56 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : CMN_1791 : The index cache size that would hold [5] aggregate groups of input rows for [AGGTRANS], in memory, is [2296] bytes
+2025-03-04 16:10:56 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : CMN_1790 : The data cache size that would hold [5] aggregate groups of input rows for [AGGTRANS], in memory, is [540] bytes
+2025-03-04 16:10:56 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Tue Mar 04 16:10:56 2025)
+2025-03-04 16:10:56 : INFO : (9824 | POST-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [9].
+2025-03-04 16:10:56 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Tue Mar 04 16:10:56 2025)
+2025-03-04 16:10:56 : INFO : (9824 | MAPPING) : (IS | IS) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2025-03-04 16:10:56 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMAGG5_5_0_3.idx] for transformation [AGGTRANS].
+2025-03-04 16:10:56 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMAGG5_5_0_3.dat] for transformation [AGGTRANS].
+2025-03-04 16:10:56 : INFO : (9824 | MANAGER) : (IS | IS) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : PETL_24012 : Session run completed successfully.
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6252 : Source Load Summary.
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SQ_extra_2_sa] (Instance Name: [SQ_extra_2_sa])
+	 Output Rows [9], Affected Rows [9], Applied Rows [9], Rejected Rows [0]
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6253 : Target Load Summary.
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [extra_trg] (Instance Name: [extra_trg])
+	 Output Rows [3], Affected Rows [3], Applied Rows [3], Rejected Rows [0]
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [extra_trg] (Instance Name: [extra_trg1])
+	 Output Rows [2], Affected Rows [2], Applied Rows [2], Rejected Rows [0]
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6023 : 
+===================================================
+
+2025-03-04 16:10:56 : INFO : (9824 | DIRECTOR) : (IS | IS) : node01 : TM_6020 : Session [s_m_again_n_again] completed at [Tue Mar 04 16:10:56 2025].
