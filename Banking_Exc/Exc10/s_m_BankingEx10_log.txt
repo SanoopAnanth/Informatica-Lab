@@ -1,0 +1,206 @@
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6014 : Initializing session [s_m_BankingEx10] at [Wed Mar 05 15:22:54 2025].
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6683 : Repository Name: [REP]
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6684 : Server Name: [IS]
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6686 : Folder: [Test]
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6685 : Workflow: [wf_m_BankingEx10] Run Instance Name: [] Run Id: [11]
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6992 : Operating System Type [NT]
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6101 : Mapping name: m_BankingEx10.
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6703 : Session [s_m_BankingEx10] is run by 64-bit Integration Service  [node01], version [10.5.2], build [0322].
+2025-03-05 15:22:54 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2025-03-05 15:22:54 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24058 : Running Partition Group [1].
+2025-03-05 15:22:54 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2025-03-05 15:22:54 : INFO : (7732 | MONITOR) : (IS | IS) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2025-03-05 15:22:54 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2025-03-05 15:22:54 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24003 : Initializing session run.
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : CMN_1569 : Server Mode: [ASCII]
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TM_6151 : The session sort order is [Binary].
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : CMN_65110 : Current Timezone:[UTC +5:30]
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : CMN_65112 : Current Process ID:[7732]
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TM_6156 : Using low precision processing.
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TM_6307 : DTM error log disabled. 
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TE_7022 : TShmWriter: Initialized
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : DBG_21694 : JNRTRANS Partition [0]: Index cache size = [44739242], Data cache size = [89478484]
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TT_11098 : The Joiner transformation [JNRTRANS] is configured with the join algorithm: Nested-Loop.
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : DBG_21694 : JNRTRANS1 Partition [0]: Index cache size = [44739242], Data cache size = [89478484]
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TT_11098 : The Joiner transformation [JNRTRANS1] is configured with the join algorithm: Nested-Loop.
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : DBG_21694 : JNRTRANS2 Partition [0]: Index cache size = [44739242], Data cache size = [89478484]
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TT_11098 : The Joiner transformation [JNRTRANS2] is configured with the join algorithm: Nested-Loop.
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : DBG_21694 : JNRTRANS3 Partition [0]: Index cache size = [44739242], Data cache size = [89478484]
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TT_11098 : The Joiner transformation [JNRTRANS3] is configured with the join algorithm: Nested-Loop.
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TM_6007 : DTM initialized successfully for session [s_m_BankingEx10]
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2025-03-05 15:22:54 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | PRE-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2025-03-05 15:22:54 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : PETL_24006 : Starting data movement.
+2025-03-05 15:22:54 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 4052160 bytes and Block size is 65536 bytes.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : FR_3118 : source [SQ_Bank_Data_file_1] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : PETL_24091 : Thread [READER_1_2_1] has the ID [7].
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : FR_3118 : source [SQ_Bank_Data_file_2] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [8].
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [9].
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table Target_BankingEx10 :Writing output to: C:\Users\Administrator\Downloads\Banking_HandsOnExercises\MasterAndDetailMatch.txt
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8222 : Target file [C:\Users\Administrator\Downloads\Banking_HandsOnExercises\MasterAndDetailMatch.txt] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table Target_BankingEx10 :Writing output to: C:\Users\Administrator\Downloads\Banking_HandsOnExercises\Master.txt
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8222 : Target file [C:\Users\Administrator\Downloads\Banking_HandsOnExercises\Master.txt] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table Target_BankingEx10 :Writing output to: C:\Users\Administrator\Downloads\Banking_HandsOnExercises\Detailed.txt
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8222 : Target file [C:\Users\Administrator\Downloads\Banking_HandsOnExercises\Detailed.txt] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table Target_BankingEx10 :Writing output to: C:\Users\Administrator\Downloads\Banking_HandsOnExercises\FullMasterDetails.txt
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8222 : Target file [C:\Users\Administrator\Downloads\Banking_HandsOnExercises\FullMasterDetails.txt] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [Target_BankingEx10]
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #2 consists of target(s) [Target_BankingEx10]
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #3 consists of target(s) [Target_BankingEx10]
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #4 consists of target(s) [Target_BankingEx10]
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8003 : Writer initialization complete.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8005 : Writer run started.
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Wed Mar 05 15:22:54 2025
+
+Target tables:
+
+     Target_BankingEx10
+     Target_BankingEx10
+     Target_BankingEx10
+     Target_BankingEx10
+
+
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : FR_3076 : Skipped over [1] lines.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Users\Administrator\Downloads\Banking_HandsOnExercises\Bank_Data_file_2.csv] : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : BLKR_16019 : Read [1000] rows, read [0] error rows for source table [Bank_Data_file_2] instance name [Bank_Data_file_2]
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_2_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-05 15:22:54 : WARNING : (7732 | READER_1_1_1) : (IS | IS) : node01 : FR_3121 : Number of cloumn in source files are more than metadata.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : FR_3076 : Skipped over [1] lines.
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Users\Administrator\Downloads\Banking_HandsOnExercises\Bank_Data_file_1.csv] : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16019 : Read [1000] rows, read [0] error rows for source table [Bank_Data_file_1] instance name [Bank_Data_file_1]
+2025-03-05 15:22:54 : INFO : (7732 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21077 : DBG_21077 Create joiner cache on master relation : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [JNRTRANS] from [44739242] to [44740000].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [JNRTRANS] from [89478484] to [89478576].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : CMN_1690 : Created new data file [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_5_0_11.dat] and index file [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_5_0_11.idx] for Joiner [JNRTRANS].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21077 : DBG_21077 Create joiner cache on master relation : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [JNRTRANS1] from [44739242] to [44740000].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [JNRTRANS1] from [89478484] to [89478576].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : CMN_1690 : Created new data file [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_7_0_11.dat] and index file [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_7_0_11.idx] for Joiner [JNRTRANS1].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21077 : DBG_21077 Create joiner cache on master relation : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [JNRTRANS2] from [44739242] to [44740000].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [JNRTRANS2] from [89478484] to [89478576].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : CMN_1690 : Created new data file [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_8_0_11.dat] and index file [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_8_0_11.idx] for Joiner [JNRTRANS2].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21077 : DBG_21077 Create joiner cache on master relation : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [JNRTRANS3] from [44739242] to [44740000].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [JNRTRANS3] from [89478484] to [89478576].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : CMN_1690 : Created new data file [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_9_0_11.dat] and index file [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_9_0_11.idx] for Joiner [JNRTRANS3].
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21214 : DBG_21214 Finished joiner cache on master relation : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21214 : DBG_21214 Finished joiner cache on master relation : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21603 : DBG_21603 Open master relation cache for detail joiner : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21214 : DBG_21214 Finished joiner cache on master relation : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21214 : DBG_21214 Finished joiner cache on master relation : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_2_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Bank_Data_file_2]. Total errors [0] 
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21603 : DBG_21603 Open master relation cache for detail joiner : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21603 : DBG_21603 Open master relation cache for detail joiner : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21603 : DBG_21603 Open master relation cache for detail joiner : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [Target_BankingEx10] at: Wed Mar 05 15:22:54 2025
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [Target_BankingEx10] at: Wed Mar 05 15:22:54 2025
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21215 : DBG_21215 Finished processing detail relation : (Wed Mar 05 15:22:54 2025)
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1795 : The index cache size that would hold [1000] input rows from the master for [JNRTRANS], in memory, is [26000] bytes
+2025-03-05 15:22:54 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1794 : The data cache size that would hold [1000] input rows from the master for [JNRTRANS], in memory, is [40656] bytes
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [Target_BankingEx10] at: Wed Mar 05 15:22:54 2025
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [Target_BankingEx10] at: Wed Mar 05 15:22:54 2025
+2025-03-05 15:22:54 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [Target_BankingEx10] at: Wed Mar 05 15:22:54 2025
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21215 : DBG_21215 Finished processing detail relation : (Wed Mar 05 15:22:55 2025)
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1795 : The index cache size that would hold [1000] input rows from the master for [JNRTRANS1], in memory, is [26000] bytes
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1794 : The data cache size that would hold [1000] input rows from the master for [JNRTRANS1], in memory, is [40656] bytes
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21215 : DBG_21215 Finished processing detail relation : (Wed Mar 05 15:22:55 2025)
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1795 : The index cache size that would hold [1000] input rows from the master for [JNRTRANS2], in memory, is [26000] bytes
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1794 : The data cache size that would hold [1000] input rows from the master for [JNRTRANS2], in memory, is [40656] bytes
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21215 : DBG_21215 Finished processing detail relation : (Wed Mar 05 15:22:55 2025)
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1795 : The index cache size that would hold [1000] input rows from the master for [JNRTRANS3], in memory, is [26000] bytes
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1794 : The data cache size that would hold [1000] input rows from the master for [JNRTRANS3], in memory, is [40656] bytes
+2025-03-05 15:22:55 : INFO : (7732 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Bank_Data_file_1]. Total errors [0] 
+2025-03-05 15:22:55 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [Target_BankingEx10] at: Wed Mar 05 15:22:55 2025
+2025-03-05 15:22:55 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [Target_BankingEx10] at: Wed Mar 05 15:22:55 2025
+2025-03-05 15:22:55 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [Target_BankingEx10] at: Wed Mar 05 15:22:55 2025
+2025-03-05 15:22:55 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8035 : Load complete time: Wed Mar 05 15:22:55 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: Target_BankingEx10 (Instance Name: [Target_BankingEx10])
+WRT_8038 Inserted rows - Requested: 1110       Applied: 1110       Rejected: 0          Affected: 1110      
+
+WRT_8036 Target: Target_BankingEx10 (Instance Name: [Target_BankingEx101])
+WRT_8038 Inserted rows - Requested: 1110       Applied: 1110       Rejected: 0          Affected: 1110      
+
+WRT_8036 Target: Target_BankingEx10 (Instance Name: [Target_BankingEx102])
+WRT_8038 Inserted rows - Requested: 1110       Applied: 1110       Rejected: 0          Affected: 1110      
+
+WRT_8036 Target: Target_BankingEx10 (Instance Name: [Target_BankingEx103])
+WRT_8038 Inserted rows - Requested: 1110       Applied: 1110       Rejected: 0          Affected: 1110      
+
+
+2025-03-05 15:22:55 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2025-03-05 15:22:55 : INFO : (7732 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8006 : Writer run completed.
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Bank_Data_file_1] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_Bank_Data_file_1] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [READER_1_2_1] created for [the read stage] of partition point [SQ_Bank_Data_file_2] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [SQ_Bank_Data_file_2] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [Target_BankingEx10, Target_BankingEx101, Target_BankingEx102, Target_BankingEx103] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Wed Mar 05 15:22:55 2025)
+2025-03-05 15:22:55 : INFO : (7732 | POST-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [10].
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Wed Mar 05 15:22:55 2025)
+2025-03-05 15:22:55 : INFO : (7732 | MAPPING) : (IS | IS) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_5_0_11.dat] for transformation [JNRTRANS].
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_5_0_11.idx] for transformation [JNRTRANS].
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_7_0_11.dat] for transformation [JNRTRANS1].
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_7_0_11.idx] for transformation [JNRTRANS1].
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_8_0_11.dat] for transformation [JNRTRANS2].
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_8_0_11.idx] for transformation [JNRTRANS2].
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_9_0_11.dat] for transformation [JNRTRANS3].
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.5.2\server\infa_shared\Cache\PMJNR19_9_0_11.idx] for transformation [JNRTRANS3].
+2025-03-05 15:22:55 : INFO : (7732 | MANAGER) : (IS | IS) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : PETL_24012 : Session run completed successfully.
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6252 : Source Load Summary.
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SQ_Bank_Data_file_1] (Instance Name: [SQ_Bank_Data_file_1])
+	 Output Rows [1000], Affected Rows [1000], Applied Rows [1000], Rejected Rows [0]
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SQ_Bank_Data_file_2] (Instance Name: [SQ_Bank_Data_file_2])
+	 Output Rows [1000], Affected Rows [1000], Applied Rows [1000], Rejected Rows [0]
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6253 : Target Load Summary.
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [Target_BankingEx10] (Instance Name: [Target_BankingEx10])
+	 Output Rows [1110], Affected Rows [1110], Applied Rows [1110], Rejected Rows [0]
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [Target_BankingEx10] (Instance Name: [Target_BankingEx101])
+	 Output Rows [1110], Affected Rows [1110], Applied Rows [1110], Rejected Rows [0]
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [Target_BankingEx10] (Instance Name: [Target_BankingEx102])
+	 Output Rows [1110], Affected Rows [1110], Applied Rows [1110], Rejected Rows [0]
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [Target_BankingEx10] (Instance Name: [Target_BankingEx103])
+	 Output Rows [1110], Affected Rows [1110], Applied Rows [1110], Rejected Rows [0]
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6023 : 
+===================================================
+
+2025-03-05 15:22:55 : INFO : (7732 | DIRECTOR) : (IS | IS) : node01 : TM_6020 : Session [s_m_BankingEx10] completed at [Wed Mar 05 15:22:55 2025].
