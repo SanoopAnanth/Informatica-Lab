@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <!-- Informatica proprietary -->
 <!DOCTYPE POWERMART SYSTEM "powrmart.dtd">
-<POWERMART CREATION_DATE="03/05/2025 14:57:25" REPOSITORY_VERSION="189.98">
+<POWERMART CREATION_DATE="03/06/2025 08:31:50" REPOSITORY_VERSION="189.98">
 <REPOSITORY NAME="REP" VERSION="189" CODEPAGE="MS1252" DATABASETYPE="Oracle">
 <FOLDER NAME="Test" GROUP="" OWNER="Administrator" SHARED="NOTSHARED" DESCRIPTION="" PERMISSIONS="rwx---r--" UUID="8218d282-cb8a-40be-9551-42ee51c884c5">
     <CONFIG DESCRIPTION ="Default session configuration object" ISDEFAULT ="YES" NAME ="default_session_config" VERSIONNUMBER ="1">
@@ -45,24 +45,20 @@
         <ATTRIBUTE NAME ="Session on Grid" VALUE =""/>
         <ATTRIBUTE NAME ="Is Enabled" VALUE ="NO"/>
     </CONFIG>
-    <WORKFLOW DESCRIPTION ="" ISENABLED ="YES" ISRUNNABLESERVICE ="NO" ISSERVICE ="NO" ISVALID ="YES" NAME ="wf_m_BankingEx9" REUSABLE_SCHEDULER ="NO" SCHEDULERNAME ="Scheduler" SERVERNAME ="IS" SERVER_DOMAINNAME ="Domain" SUSPEND_ON_ERROR ="NO" TASKS_MUST_RUN_ON_SERVER ="NO" VERSIONNUMBER ="1">
+    <WORKFLOW DESCRIPTION ="" ISENABLED ="YES" ISRUNNABLESERVICE ="NO" ISSERVICE ="NO" ISVALID ="YES" NAME ="wf_m_BankingEx9_new" REUSABLE_SCHEDULER ="NO" SCHEDULERNAME ="Scheduler" SERVERNAME ="IS" SERVER_DOMAINNAME ="Domain" SUSPEND_ON_ERROR ="NO" TASKS_MUST_RUN_ON_SERVER ="NO" VERSIONNUMBER ="1">
         <SCHEDULER DESCRIPTION ="" NAME ="Scheduler" REUSABLE ="NO" VERSIONNUMBER ="1">
             <SCHEDULEINFO SCHEDULETYPE ="ONDEMAND"/>
         </SCHEDULER>
         <TASK DESCRIPTION ="" NAME ="Start" REUSABLE ="NO" TYPE ="Start" VERSIONNUMBER ="1"/>
-        <SESSION DESCRIPTION ="" ISVALID ="NO" MAPPINGNAME ="m_BankingEx9" NAME ="s_m_BankingEx9" REUSABLE ="NO" SORTORDER ="Binary" VERSIONNUMBER ="1">
-            <SESSTRANSFORMATIONINST ISREPARTITIONPOINT ="YES" PARTITIONTYPE ="PASS THROUGH" PIPELINE ="2" SINSTANCENAME ="Target_BankingEx9" STAGE ="1" TRANSFORMATIONNAME ="Target_BankingEx9" TRANSFORMATIONTYPE ="Target Definition">
+        <SESSION DESCRIPTION ="" ISVALID ="YES" MAPPINGNAME ="m_BankingEx9_new" NAME ="s_m_BankingEx9_new" REUSABLE ="NO" SORTORDER ="Binary" VERSIONNUMBER ="1">
+            <SESSTRANSFORMATIONINST ISREPARTITIONPOINT ="YES" PARTITIONTYPE ="PASS THROUGH" PIPELINE ="1" SINSTANCENAME ="Target_BankingEx9" STAGE ="1" TRANSFORMATIONNAME ="Target_BankingEx9" TRANSFORMATIONTYPE ="Target Definition">
                 <FLATFILE CODEPAGE ="MS1252" CONSECDELIMITERSASONE ="NO" DELIMITED ="YES" DELIMITERS ="," ESCAPE_CHARACTER ="" KEEPESCAPECHAR ="NO" LINESEQUENTIAL ="NO" MULTIDELIMITERSASAND ="NO" NULLCHARTYPE ="ASCII" NULL_CHARACTER ="*" PADBYTES ="1" QUOTE_CHARACTER ="NONE" REPEATABLE ="NO" ROWDELIMITER ="0" SKIPROWS ="0" STRIPTRAILINGBLANKS ="NO"/>
             </SESSTRANSFORMATIONINST>
             <SESSTRANSFORMATIONINST ISREPARTITIONPOINT ="NO" PIPELINE ="0" SINSTANCENAME ="Bank_Data_file_1" STAGE ="0" TRANSFORMATIONNAME ="Bank_Data_file_1" TRANSFORMATIONTYPE ="Source Definition">
                 <FLATFILE CODEPAGE ="MS1252" CONSECDELIMITERSASONE ="NO" DELIMITED ="YES" DELIMITERS ="," ESCAPE_CHARACTER ="" KEEPESCAPECHAR ="NO" LINESEQUENTIAL ="NO" MULTIDELIMITERSASAND ="NO" NULLCHARTYPE ="ASCII" NULL_CHARACTER ="*" PADBYTES ="1" QUOTE_CHARACTER ="NONE" REPEATABLE ="NO" ROWDELIMITER ="0" SKIPROWS ="1" STRIPTRAILINGBLANKS ="NO"/>
             </SESSTRANSFORMATIONINST>
             <SESSTRANSFORMATIONINST ISREPARTITIONPOINT ="YES" PARTITIONTYPE ="PASS THROUGH" PIPELINE ="1" SINSTANCENAME ="SQ_Bank_Data_file_1" STAGE ="2" TRANSFORMATIONNAME ="SQ_Bank_Data_file_1" TRANSFORMATIONTYPE ="Source Qualifier"/>
-            <SESSTRANSFORMATIONINST ISREPARTITIONPOINT ="NO" PIPELINE ="0" SINSTANCENAME ="Bank_Data_file_3" STAGE ="0" TRANSFORMATIONNAME ="Bank_Data_file_3" TRANSFORMATIONTYPE ="Source Definition">
-                <FLATFILE CODEPAGE ="MS1252" CONSECDELIMITERSASONE ="NO" DELIMITED ="YES" DELIMITERS ="," ESCAPE_CHARACTER ="" KEEPESCAPECHAR ="NO" LINESEQUENTIAL ="NO" MULTIDELIMITERSASAND ="NO" NULLCHARTYPE ="ASCII" NULL_CHARACTER ="*" PADBYTES ="1" QUOTE_CHARACTER ="NONE" REPEATABLE ="NO" ROWDELIMITER ="0" SKIPROWS ="1" STRIPTRAILINGBLANKS ="NO"/>
-            </SESSTRANSFORMATIONINST>
-            <SESSTRANSFORMATIONINST ISREPARTITIONPOINT ="YES" PARTITIONTYPE ="PASS THROUGH" PIPELINE ="2" SINSTANCENAME ="SQ_Bank_Data_file_3" STAGE ="3" TRANSFORMATIONNAME ="SQ_Bank_Data_file_3" TRANSFORMATIONTYPE ="Source Qualifier"/>
-            <SESSTRANSFORMATIONINST ISREPARTITIONPOINT ="NO" PIPELINE ="2" SINSTANCENAME ="LKPTRANS" STAGE ="3" TRANSFORMATIONNAME ="LKPTRANS" TRANSFORMATIONTYPE ="Lookup Procedure">
+            <SESSTRANSFORMATIONINST ISREPARTITIONPOINT ="NO" PIPELINE ="1" SINSTANCENAME ="LKPTRANS" STAGE ="2" TRANSFORMATIONNAME ="LKPTRANS" TRANSFORMATIONTYPE ="Lookup Procedure">
                 <PARTITION DESCRIPTION ="" NAME ="Partition #1"/>
                 <FLATFILE CODEPAGE ="MS1252" CONSECDELIMITERSASONE ="NO" DELIMITED ="YES" DELIMITERS ="," ESCAPE_CHARACTER ="" KEEPESCAPECHAR ="NO" LINESEQUENTIAL ="NO" MULTIDELIMITERSASAND ="NO" NULLCHARTYPE ="ASCII" NULL_CHARACTER ="*" PADBYTES ="1" QUOTE_CHARACTER ="NONE" REPEATABLE ="NO" ROWDELIMITER ="0" SKIPROWS ="1" STRIPTRAILINGBLANKS ="NO"/>
             </SESSTRANSFORMATIONINST>
@@ -99,27 +95,14 @@
                 <ATTRIBUTE NAME ="Codepage Parameter" VALUE =""/>
             </SESSIONEXTENSION>
             <SESSIONEXTENSION NAME ="File Reader" SINSTANCENAME ="SQ_Bank_Data_file_1" SUBTYPE ="File Reader" TRANSFORMATIONTYPE ="Source Qualifier" TYPE ="READER"/>
-            <SESSIONEXTENSION DSQINSTNAME ="SQ_Bank_Data_file_3" DSQINSTTYPE ="Source Qualifier" NAME ="File Reader" SINSTANCENAME ="Bank_Data_file_3" SUBTYPE ="File Reader" TRANSFORMATIONTYPE ="Source Definition" TYPE ="READER">
-                <CONNECTIONREFERENCE CNXREFNAME ="Connection" CONNECTIONNAME ="" CONNECTIONNUMBER ="1" CONNECTIONSUBTYPE ="" CONNECTIONTYPE ="" VARIABLE =""/>
-                <ATTRIBUTE NAME ="Input Type" VALUE ="File"/>
-                <ATTRIBUTE NAME ="Concurrent read partitioning" VALUE ="Optimize throughput"/>
-                <ATTRIBUTE NAME ="Command Type" VALUE ="Command Generating Data"/>
-                <ATTRIBUTE NAME ="Source filetype" VALUE ="Direct"/>
-                <ATTRIBUTE NAME ="Source file directory" VALUE ="C:&#x5c;Users&#x5c;Administrator&#x5c;Downloads&#x5c;Banking_HandsOnExercises"/>
-                <ATTRIBUTE NAME ="Source filename" VALUE ="Bank_Data_file_3.csv"/>
-                <ATTRIBUTE NAME ="Command" VALUE =""/>
-                <ATTRIBUTE NAME ="File Reader Truncate String Null" VALUE ="NO"/>
-                <ATTRIBUTE NAME ="Codepage Parameter" VALUE =""/>
-            </SESSIONEXTENSION>
-            <SESSIONEXTENSION NAME ="File Reader" SINSTANCENAME ="SQ_Bank_Data_file_3" SUBTYPE ="File Reader" TRANSFORMATIONTYPE ="Source Qualifier" TYPE ="READER"/>
             <SESSIONEXTENSION NAME ="Flat File Lookup" SINSTANCENAME ="LKPTRANS" SUBTYPE ="Flat File Lookup" TRANSFORMATIONTYPE ="Lookup Procedure" TYPE ="LOOKUPEXTENSION">
-                <ATTRIBUTE NAME ="Lookup source file directory" VALUE ="$PMLookupFileDir&#x5c;"/>
-                <ATTRIBUTE NAME ="Lookup source filename" VALUE =""/>
+                <ATTRIBUTE NAME ="Lookup source file directory" VALUE ="C:&#x5c;Users&#x5c;Administrator&#x5c;Downloads&#x5c;Banking_HandsOnExercises"/>
+                <ATTRIBUTE NAME ="Lookup source filename" VALUE ="Bank_Data_file_3.csv"/>
                 <ATTRIBUTE NAME ="Lookup source filetype" VALUE ="Direct"/>
             </SESSIONEXTENSION>
             <ATTRIBUTE NAME ="General Options" VALUE =""/>
             <ATTRIBUTE NAME ="Write Backward Compatible Session Log File" VALUE ="NO"/>
-            <ATTRIBUTE NAME ="Session Log File Name" VALUE ="s_m_BankingEx9.log"/>
+            <ATTRIBUTE NAME ="Session Log File Name" VALUE ="s_m_BankingEx9_new.log"/>
             <ATTRIBUTE NAME ="Session Log File directory" VALUE ="$PMSessionLogDir&#x5c;"/>
             <ATTRIBUTE NAME ="Parameter Filename" VALUE =""/>
             <ATTRIBUTE NAME ="Enable Test Load" VALUE ="NO"/>
@@ -145,30 +128,30 @@
             <ATTRIBUTE NAME ="Allow Pushdown for User Incompatible Connections" VALUE ="NO"/>
         </SESSION>
         <TASKINSTANCE DESCRIPTION ="" ISENABLED ="YES" NAME ="Start" REUSABLE ="NO" TASKNAME ="Start" TASKTYPE ="Start"/>
-        <TASKINSTANCE DESCRIPTION ="" FAIL_PARENT_IF_INSTANCE_DID_NOT_RUN ="NO" FAIL_PARENT_IF_INSTANCE_FAILS ="NO" ISENABLED ="YES" NAME ="s_m_BankingEx9" REUSABLE ="NO" TASKNAME ="s_m_BankingEx9" TASKTYPE ="Session" TREAT_INPUTLINK_AS_AND ="YES"/>
-        <WORKFLOWLINK CONDITION ="" FROMTASK ="Start" TOTASK ="s_m_BankingEx9"/>
+        <TASKINSTANCE DESCRIPTION ="" FAIL_PARENT_IF_INSTANCE_DID_NOT_RUN ="NO" FAIL_PARENT_IF_INSTANCE_FAILS ="NO" ISENABLED ="YES" NAME ="s_m_BankingEx9_new" REUSABLE ="NO" TASKNAME ="s_m_BankingEx9_new" TASKTYPE ="Session" TREAT_INPUTLINK_AS_AND ="YES"/>
+        <WORKFLOWLINK CONDITION ="" FROMTASK ="Start" TOTASK ="s_m_BankingEx9_new"/>
         <WORKFLOWVARIABLE DATATYPE ="date/time" DEFAULTVALUE ="" DESCRIPTION ="The time this task started" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$Start.StartTime" USERDEFINED ="NO"/>
         <WORKFLOWVARIABLE DATATYPE ="date/time" DEFAULTVALUE ="" DESCRIPTION ="The time this task completed" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$Start.EndTime" USERDEFINED ="NO"/>
         <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Status of this task&apos;s execution" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$Start.Status" USERDEFINED ="NO"/>
         <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Status of the previous task that is not disabled" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$Start.PrevTaskStatus" USERDEFINED ="NO"/>
         <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Error code for this task&apos;s execution" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$Start.ErrorCode" USERDEFINED ="NO"/>
         <WORKFLOWVARIABLE DATATYPE ="string" DEFAULTVALUE ="" DESCRIPTION ="Error message for this task&apos;s execution" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$Start.ErrorMsg" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="date/time" DEFAULTVALUE ="" DESCRIPTION ="The time this task started" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.StartTime" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="date/time" DEFAULTVALUE ="" DESCRIPTION ="The time this task completed" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.EndTime" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Status of this task&apos;s execution" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.Status" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Status of the previous task that is not disabled" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.PrevTaskStatus" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Error code for this task&apos;s execution" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.ErrorCode" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="string" DEFAULTVALUE ="" DESCRIPTION ="Error message for this task&apos;s execution" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.ErrorMsg" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="bigint" DEFAULTVALUE ="" DESCRIPTION ="Rows successfully read" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.SrcSuccessRows" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="bigint" DEFAULTVALUE ="" DESCRIPTION ="Rows failed to read" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.SrcFailedRows" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="bigint" DEFAULTVALUE ="" DESCRIPTION ="Rows successfully loaded" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.TgtSuccessRows" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="bigint" DEFAULTVALUE ="" DESCRIPTION ="Rows failed to load" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.TgtFailedRows" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Total number of transformation errors" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.TotalTransErrors" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="First error code" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.FirstErrorCode" USERDEFINED ="NO"/>
-        <WORKFLOWVARIABLE DATATYPE ="string" DEFAULTVALUE ="" DESCRIPTION ="First error message" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9.FirstErrorMsg" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="date/time" DEFAULTVALUE ="" DESCRIPTION ="The time this task started" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.StartTime" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="date/time" DEFAULTVALUE ="" DESCRIPTION ="The time this task completed" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.EndTime" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Status of this task&apos;s execution" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.Status" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Status of the previous task that is not disabled" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.PrevTaskStatus" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Error code for this task&apos;s execution" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.ErrorCode" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="string" DEFAULTVALUE ="" DESCRIPTION ="Error message for this task&apos;s execution" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.ErrorMsg" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="bigint" DEFAULTVALUE ="" DESCRIPTION ="Rows successfully read" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.SrcSuccessRows" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="bigint" DEFAULTVALUE ="" DESCRIPTION ="Rows failed to read" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.SrcFailedRows" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="bigint" DEFAULTVALUE ="" DESCRIPTION ="Rows successfully loaded" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.TgtSuccessRows" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="bigint" DEFAULTVALUE ="" DESCRIPTION ="Rows failed to load" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.TgtFailedRows" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="Total number of transformation errors" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.TotalTransErrors" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="integer" DEFAULTVALUE ="" DESCRIPTION ="First error code" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.FirstErrorCode" USERDEFINED ="NO"/>
+        <WORKFLOWVARIABLE DATATYPE ="string" DEFAULTVALUE ="" DESCRIPTION ="First error message" ISNULL ="NO" ISPERSISTENT ="NO" NAME ="$s_m_BankingEx9_new.FirstErrorMsg" USERDEFINED ="NO"/>
         <ATTRIBUTE NAME ="Parameter Filename" VALUE =""/>
         <ATTRIBUTE NAME ="Write Backward Compatible Workflow Log File" VALUE ="NO"/>
-        <ATTRIBUTE NAME ="Workflow Log File Name" VALUE ="wf_m_BankingEx9.log"/>
+        <ATTRIBUTE NAME ="Workflow Log File Name" VALUE ="wf_m_BankingEx9_new.log"/>
         <ATTRIBUTE NAME ="Workflow Log File Directory" VALUE ="$PMWorkflowLogDir&#x5c;"/>
         <ATTRIBUTE NAME ="Save Workflow log by" VALUE ="By runs"/>
         <ATTRIBUTE NAME ="Save workflow log for these runs" VALUE ="0"/>
