@@ -1,0 +1,1303 @@
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6014 : Initializing session [s_m_RetailEx9] at [Thu Mar 06 17:10:05 2025].
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6683 : Repository Name: [REP]
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6684 : Server Name: [IS]
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6686 : Folder: [Exercise]
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6685 : Workflow: [wf_m_RetailEx9] Run Instance Name: [] Run Id: [52]
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6992 : Operating System Type [NT]
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6101 : Mapping name: m_RetailEx9.
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6703 : Session [s_m_RetailEx9] is run by 64-bit Integration Service  [node01], version [10.5.2], build [0322].
+2025-03-06 17:10:05 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2025-03-06 17:10:05 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24058 : Running Partition Group [1].
+2025-03-06 17:10:05 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2025-03-06 17:10:05 : INFO : (7592 | MONITOR) : (IS | IS) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2025-03-06 17:10:05 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2025-03-06 17:10:05 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24003 : Initializing session run.
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : CMN_1569 : Server Mode: [ASCII]
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TM_6151 : The session sort order is [Binary].
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : CMN_65110 : Current Timezone:[UTC +5:30]
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : CMN_65112 : Current Process ID:[7592]
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TM_6156 : Using low precision processing.
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TM_6307 : DTM error log disabled. 
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TE_7022 : TShmWriter: Initialized
+2025-03-06 17:10:05 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TM_6007 : DTM initialized successfully for session [s_m_RetailEx9]
+2025-03-06 17:10:05 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2025-03-06 17:10:05 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Thu Mar 06 17:10:05 2025)
+2025-03-06 17:10:05 : INFO : (7592 | PRE-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2025-03-06 17:10:06 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : PETL_24006 : Starting data movement.
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [1] lookup caches; [0] on-demand only).
+2025-03-06 17:10:06 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 1219648 bytes and Block size is 65536 bytes.
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1) : (IS | IS) : node01 : DBG_21693 : LKPTRANS{{SRT}}: Cache size for partition [1] = [553648126]
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1) : (IS | IS) : node01 : SORT_40419 : For Transformation [LKPTRANS{{SRT}}], memory used is [553648126] bytes and row size is 32 bytes.
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS] from [178956970] to [178961200].
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS] from [357913940] to [357916672].
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS].
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [6].
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [7].
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3118 : source [SQ_Retail_Source_DATA_1] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : FR_3118 : source [LKPTRANS{{DSQ}}] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [8].
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [9].
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [10].
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : FR_3076 : Skipped over [1] lines.
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Users\Administrator\Downloads\Retail_HandsOnExercises\Retail_Source_DATA_3.csv] : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : SORT_40420 : SORT_40420 Start of input for Transformation [LKPTRANS{{SRT}}]. : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : SORT_40421 : SORT_40421 End of input for Transformation [LKPTRANS{{SRT}}]. : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table Target_RetailEx9 :Writing output to: C:\Users\Administrator\Downloads\Retail_HandsOnExercises\RetailEx9.csv
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8222 : Target file [C:\Users\Administrator\Downloads\Retail_HandsOnExercises\RetailEx9.csv] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [Target_RetailEx9]
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8003 : Writer initialization complete.
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8005 : Writer run started.
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Thu Mar 06 17:10:06 2025
+
+Target tables:
+
+     Target_RetailEx9
+
+
+2025-03-06 17:10:06 : WARNING : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3119 : Metadata column name [CUST_ACTIVE] does not match with source column name [CUST_ACTIVE    ].
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3076 : Skipped over [1] lines.
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Users\Administrator\Downloads\Retail_HandsOnExercises\Retail_Source_DATA_1.csv] : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [5], field [CUSTOMER_ZIP]: Invalid number: [BH21].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [15], field [CUSTOMER_ZIP]: Invalid number: [BS14].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [18], field [CUSTOMER_ZIP]: Invalid number: [SY4].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [35], field [CUSTOMER_ZIP]: Invalid number: [WC2H].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [54], field [CUSTOMER_ZIP]: Invalid number: [WC1B].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [69], field [CUSTOMER_ZIP]: Invalid number: [W1F].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [76], field [CUSTOMER_ZIP]: Invalid number: [DN21].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [90], field [CUSTOMER_ZIP]: Invalid number: [LE16].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [95], field [CUSTOMER_ZIP]: Invalid number: [OX12].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [102], field [CUSTOMER_ZIP]: Invalid number: [DN36].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [110], field [CUSTOMER_ZIP]: Invalid number: [AB39].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [112], field [CUSTOMER_ZIP]: Invalid number: [EH52].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [174], field [CUSTOMER_ZIP]: Invalid number: [CV35].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [181], field [CUSTOMER_ZIP]: Invalid number: [SW1E].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [188], field [CUSTOMER_ZIP]: Invalid number: [S33].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [191], field [CUSTOMER_ZIP]: Invalid number: [NG22].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [199], field [CUSTOMER_ZIP]: Invalid number: [LE14].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [202], field [CUSTOMER_ZIP]: Invalid number: [L33].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [203], field [CUSTOMER_ZIP]: Invalid number: [OX12].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [223], field [CUSTOMER_ZIP]: Invalid number: [NG34].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [224], field [CUSTOMER_ZIP]: Invalid number: [RH5].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [250], field [CUSTOMER_ZIP]: Invalid number: [NE46].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [262], field [CUSTOMER_ZIP]: Invalid number: [SN13].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [275], field [CUSTOMER_ZIP]: Invalid number: [S8].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [284], field [CUSTOMER_ZIP]: Invalid number: [EC3M].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [306], field [CUSTOMER_ZIP]: Invalid number: [L33].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [316], field [CUSTOMER_ZIP]: Invalid number: [AB39].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=5 Targ Rowid=5
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8641.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "606-459-1734"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [324], field [CUSTOMER_ZIP]: Invalid number: [EH52].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [328], field [CUSTOMER_ZIP]: Invalid number: [DT10].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [347], field [CUSTOMER_ZIP]: Invalid number: [CB4].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [351], field [CUSTOMER_ZIP]: Invalid number: [CH48].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [357], field [CUSTOMER_ZIP]: Invalid number: [BT2].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [359], field [CUSTOMER_ZIP]: Invalid number: [LS9].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=15 Targ Rowid=15
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "9707.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "881-474-2104"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [362], field [CUSTOMER_ZIP]: Invalid number: [SY4].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [365], field [CUSTOMER_ZIP]: Invalid number: [IV1].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [390], field [CUSTOMER_ZIP]: Invalid number: [TF6].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [444], field [CUSTOMER_ZIP]: Invalid number: [LE15].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [445], field [CUSTOMER_ZIP]: Invalid number: [BD23].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=18 Targ Rowid=18
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "9276.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "482-122-9476"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [448], field [CUSTOMER_ZIP]: Invalid number: [AB56].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [463], field [CUSTOMER_ZIP]: Invalid number: [L74].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [466], field [CUSTOMER_ZIP]: Invalid number: [BS14].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [481], field [CUSTOMER_ZIP]: Invalid number: [N3].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [484], field [CUSTOMER_ZIP]: Invalid number: [IV1].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [487], field [CUSTOMER_ZIP]: Invalid number: [NG22].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=35 Targ Rowid=35
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "3361.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "612-567-8505"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=54 Targ Rowid=54
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "1075.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "830-678-3303"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [543], field [CUSTOMER_ZIP]: Invalid number: [RG20].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=69 Targ Rowid=69
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "7343.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "279-635-9044"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [544], field [CUSTOMER_ZIP]: Invalid number: [GL54].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [559], field [CUSTOMER_ZIP]: Invalid number: [NG22].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [564], field [CUSTOMER_ZIP]: Invalid number: [SN1].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [566], field [CUSTOMER_ZIP]: Invalid number: [SN1].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [568], field [CUSTOMER_ZIP]: Invalid number: [CV35].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [570], field [CUSTOMER_ZIP]: Invalid number: [DL8].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=76 Targ Rowid=76
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "6698.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "693-793-0181"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [576], field [CUSTOMER_ZIP]: Invalid number: [SN13].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [580], field [CUSTOMER_ZIP]: Invalid number: [EH9].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [584], field [CUSTOMER_ZIP]: Invalid number: [LE15].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [585], field [CUSTOMER_ZIP]: Invalid number: [BD23].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [622], field [CUSTOMER_ZIP]: Invalid number: [G4].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [649], field [CUSTOMER_ZIP]: Invalid number: [LS6].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=90 Targ Rowid=90
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5184.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "260-299-8502"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [672], field [CUSTOMER_ZIP]: Invalid number: [B40].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [679], field [CUSTOMER_ZIP]: Invalid number: [BH21].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [731], field [CUSTOMER_ZIP]: Invalid number: [B12].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [739], field [CUSTOMER_ZIP]: Invalid number: [NR34].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [741], field [CUSTOMER_ZIP]: Invalid number: [CT15].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [758], field [CUSTOMER_ZIP]: Invalid number: [AB55].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=95 Targ Rowid=95
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5044.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "936-483-6979"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [760], field [CUSTOMER_ZIP]: Invalid number: [RG20].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [773], field [CUSTOMER_ZIP]: Invalid number: [EH52].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=102 Targ Rowid=102
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "1134.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "282-396-5628"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [886], field [CUSTOMER_F_NAME]: Data [Barbara-anne] was truncated.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [809], field [CUSTOMER_ZIP]: Invalid number: [G4].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [814], field [CUSTOMER_ZIP]: Invalid number: [LN6].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [832], field [CUSTOMER_ZIP]: Invalid number: [BD23].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [847], field [CUSTOMER_ZIP]: Invalid number: [SG4].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=110 Targ Rowid=110
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "3011.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "789-162-8936"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [856], field [CUSTOMER_ZIP]: Invalid number: [NE46].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [871], field [CUSTOMER_ZIP]: Invalid number: [IV1].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [882], field [CUSTOMER_ZIP]: Invalid number: [G4].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [884], field [CUSTOMER_ZIP]: Invalid number: [M34].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [892], field [CUSTOMER_ZIP]: Invalid number: [PR1].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [913], field [CUSTOMER_ZIP]: Invalid number: [RG20].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [956], field [CUSTOMER_ZIP]: Invalid number: [EH9].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=112 Targ Rowid=112
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "6639.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "779-261-6804"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [961], field [CUSTOMER_ZIP]: Invalid number: [BD7].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [967], field [CUSTOMER_ZIP]: Invalid number: [IV1].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [974], field [CUSTOMER_ZIP]: Invalid number: [G4].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [975], field [CUSTOMER_ZIP]: Invalid number: [OX12].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [976], field [CUSTOMER_ZIP]: Invalid number: [GL54].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [980], field [CUSTOMER_ZIP]: Invalid number: [N3].  The row will be skipped.
+2025-03-06 17:10:06 : ERROR : (7592 | READER_1_1_1) : (IS | IS) : node01 : FR_3065 : Row [988], field [CUSTOMER_ZIP]: Invalid number: [EC3M].  The row will be skipped.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=174 Targ Rowid=174
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8311.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "268-592-4887"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16019 : Read [917] rows, read [83] error rows for source table [Retail_Source_DATA_1] instance name [Retail_Source_DATA_1]
+2025-03-06 17:10:06 : INFO : (7592 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=181 Targ Rowid=181
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "7624.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "427-910-5751"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=188 Targ Rowid=188
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "6169.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "573-308-3383"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=191 Targ Rowid=191
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8961.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "484-535-2196"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=199 Targ Rowid=199
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5730.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "538-873-9501"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=202 Targ Rowid=202
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "6849.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "387-247-7587"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=203 Targ Rowid=203
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "1232.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "988-452-9254"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=223 Targ Rowid=223
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "2469.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "665-531-6166"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=224 Targ Rowid=224
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4905.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "898-944-6414"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=250 Targ Rowid=250
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "1134.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "246-707-4168"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : TT_11186 : Lookup cache of [LKPTRANS], previously started by an additional concurrent pipeline, is now needed on demand.
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : SORT_40422 : SORT_40422 End of output from Sorter Transformation [LKPTRANS{{SRT}}]. Processed 1000 rows (32000 input bytes; 0 temp I/O bytes). : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : SORT_40423 : SORT_40423 End of sort for Sorter Transformation [LKPTRANS{{SRT}}]. : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21682 : Lookup table row count : 1000
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21297 : Lookup cache row count : 8
+
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : CMN_1671 : Created new cache files PMLKUP33_4_0_52W64.[dat/idx] in directory C:\Informatica\10.5.2\server\infa_shared\Cache for Lookup [LKPTRANS].
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21641 : LKPTRANS: Index cache size = [178961200], Data cache size = [357916672]
+2025-03-06 17:10:06 : INFO : (7592 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS{{DSQ}}]. Total errors [0] 
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [Target_RetailEx9] at: Thu Mar 06 17:10:06 2025
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=262 Targ Rowid=262
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "9359.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "661-926-3567"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=275 Targ Rowid=275
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4949.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "682-627-9148"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=284 Targ Rowid=284
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "9066.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "255-816-8741"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=306 Targ Rowid=306
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "3979.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "899-481-2191"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=316 Targ Rowid=316
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4279.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "508-640-2648"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=324 Targ Rowid=324
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4428.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "926-270-5854"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=328 Targ Rowid=328
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4977.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "239-250-5589"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=347 Targ Rowid=347
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "1705.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "813-701-0654"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=351 Targ Rowid=351
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4911.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "591-723-8489"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=357 Targ Rowid=357
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4906.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "263-817-6310"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=359 Targ Rowid=359
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "7054.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "665-465-5874"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=362 Targ Rowid=362
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4805.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "707-492-4259"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=365 Targ Rowid=365
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5395.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "195-470-7649"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=390 Targ Rowid=390
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8406.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "676-174-8202"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=444 Targ Rowid=444
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "3731.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "756-658-3912"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=445 Targ Rowid=445
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8751.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "534-516-0398"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=448 Targ Rowid=448
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5100.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "611-159-4142"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=463 Targ Rowid=463
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "7637.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "377-757-5247"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=466 Targ Rowid=466
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "6553.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "120-355-0138"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=481 Targ Rowid=481
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "6176.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "490-206-6237"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=484 Targ Rowid=484
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8171.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "578-249-6888"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=487 Targ Rowid=487
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "6087.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "692-630-3391"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=543 Targ Rowid=543
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "2158.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "421-708-0783"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=544 Targ Rowid=544
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8305.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "587-834-0119"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=559 Targ Rowid=559
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "7718.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "728-437-3957"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=564 Targ Rowid=564
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "3524.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "571-725-7363"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=566 Targ Rowid=566
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "3577.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "498-927-4039"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=568 Targ Rowid=568
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "9131.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "430-992-2174"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=570 Targ Rowid=570
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "7877.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "847-394-4788"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=576 Targ Rowid=576
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "1539.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "583-703-4295"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=580 Targ Rowid=580
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5775.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "578-947-1330"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=584 Targ Rowid=584
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8778.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "697-742-5336"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=585 Targ Rowid=585
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8875.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "549-705-0388"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=622 Targ Rowid=622
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "3017.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "631-283-2795"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=649 Targ Rowid=649
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "9567.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "818-487-7535"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=672 Targ Rowid=672
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8442.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "231-652-4566"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=679 Targ Rowid=679
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "6797.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "632-904-0276"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=731 Targ Rowid=731
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5441.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "745-769-3913"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=739 Targ Rowid=739
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "1944.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "783-534-6078"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=741 Targ Rowid=741
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4211.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "819-587-3921"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=758 Targ Rowid=758
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4144.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "751-947-7268"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=760 Targ Rowid=760
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "7030.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "785-866-5380"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=773 Targ Rowid=773
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "3309.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "555-739-3199"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=809 Targ Rowid=809
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5206.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "526-268-8873"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=814 Targ Rowid=814
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4360.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "255-431-6299"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=832 Targ Rowid=832
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5201.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "704-713-6152"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=847 Targ Rowid=847
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5849.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "465-993-1381"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=856 Targ Rowid=856
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5239.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "990-860-3875"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=871 Targ Rowid=871
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "9918.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "972-250-2115"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=882 Targ Rowid=882
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "4798.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "926-146-8153"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=884 Targ Rowid=884
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5400.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "494-105-9038"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=892 Targ Rowid=892
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "2820.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "571-325-8062"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=913 Targ Rowid=913
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "3395.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "162-521-0315"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=956 Targ Rowid=956
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "7094.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "546-844-1622"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=961 Targ Rowid=961
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5013.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "125-979-7636"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=967 Targ Rowid=967
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "1750.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "600-595-0735"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=974 Targ Rowid=974
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "9410.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "641-364-7267"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=975 Targ Rowid=975
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "9970.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "438-207-1556"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=976 Targ Rowid=976
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "2078.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "104-466-9769"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=980 Targ Rowid=980
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "8337.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "186-277-9499"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "FALSE"
+)
+
+2025-03-06 17:10:06 : ERROR : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21090 : SQ_Retail_Source_DATA_1: Data overflow/conversion error for [CUSTOMER_ZIP]
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : CMN_1053 : : Rowdata: ( RowType=-4(error) Src Rowid=988 Targ Rowid=988
+  CUSTOMER_ID (CUSTOMER_ID:Double:): "(NULL)"
+  CUSTOMER_F_NAME (CUSTOMER_F_NAME:Char.11:): "(NULL)"
+  CUSTOMER_L_NAME (CUSTOMER_L_NAME:Char.16:): "(NULL)"
+  CUSTOMER_CITY (CUSTOMER_CITY:Char.16:): "(NULL)"
+  CUSTOMER_ZIP (CUSTOMER_ZIP:Double:): "(NULL)"
+  COUNTRY (COUNTRY1:Char.20:): "United Kingdom"
+  STORE_NUMBER (STORE_NUMBER:Double:): "5229.000000000000"
+  CUST_CONTACT_PHONE (CUST_CONTACT_PHONE:Char.12:): "115-490-4472"
+  CUST_ACTIVE (CUST_ACTIVE:Char.5:): "TRUE"
+)
+
+2025-03-06 17:10:06 : INFO : (7592 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Retail_Source_DATA_1]. Total errors [0] 
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [Target_RetailEx9] at: Thu Mar 06 17:10:06 2025
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8035 : Load complete time: Thu Mar 06 17:10:06 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: Target_RetailEx9 (Instance Name: [Target_RetailEx9])
+WRT_8038 Inserted rows - Requested: 917        Applied: 917        Rejected: 0          Affected: 917       
+
+
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2025-03-06 17:10:06 : INFO : (7592 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8006 : Writer run completed.
+2025-03-06 17:10:06 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Retail_Source_DATA_1] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_Retail_Source_DATA_1] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [Target_RetailEx9] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-03-06 17:10:06 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : CMN_1793 : The index cache size that would hold [8] rows in the lookup table for [LKPTRANS], in memory, is [4400] bytes
+2025-03-06 17:10:06 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : CMN_1792 : The data cache size that would hold [8] rows in the lookup table for [LKPTRANS], in memory, is [16384] bytes
+2025-03-06 17:10:06 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | POST-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [11].
+2025-03-06 17:10:06 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Thu Mar 06 17:10:06 2025)
+2025-03-06 17:10:06 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TE_7216 : Deleting cache files [PMLKUP33_4_0_52W64] for transformation [LKPTRANS].
+2025-03-06 17:10:06 : INFO : (7592 | MAPPING) : (IS | IS) : node01 : TM_6018 : The session completed with [83] row transformation errors. 
+2025-03-06 17:10:06 : INFO : (7592 | MANAGER) : (IS | IS) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : PETL_24012 : Session run completed successfully.
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6252 : Source Load Summary.
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SQ_Retail_Source_DATA_1] (Instance Name: [SQ_Retail_Source_DATA_1])
+	 Output Rows [917], Affected Rows [917], Applied Rows [917], Rejected Rows [83]
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6253 : Target Load Summary.
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [Target_RetailEx9] (Instance Name: [Target_RetailEx9])
+	 Output Rows [917], Affected Rows [917], Applied Rows [917], Rejected Rows [0]
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6023 : 
+===================================================
+
+2025-03-06 17:10:06 : INFO : (7592 | DIRECTOR) : (IS | IS) : node01 : TM_6020 : Session [s_m_RetailEx9] completed at [Thu Mar 06 17:10:06 2025].
