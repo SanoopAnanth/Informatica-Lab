@@ -1,0 +1,182 @@
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6014 : Initializing session [s_m_SCD2] at [Mon Mar 10 08:18:04 2025].
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6683 : Repository Name: [REP]
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6684 : Server Name: [IS]
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6686 : Folder: [SCD_implementation]
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6685 : Workflow: [wf_SCD2] Run Instance Name: [] Run Id: [63]
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6992 : Operating System Type [NT]
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6101 : Mapping name: m_SCD2.
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6703 : Session [s_m_SCD2] is run by 64-bit Integration Service  [node01], version [10.5.2], build [0322].
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24058 : Running Partition Group [1].
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2025-03-10 08:18:04 : INFO : (6860 | MONITOR) : (IS | IS) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24003 : Initializing session run.
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : CMN_1569 : Server Mode: [ASCII]
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TM_6151 : The session sort order is [Binary].
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : CMN_65110 : Current Timezone:[UTC +5:30]
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : CMN_65112 : Current Process ID:[6860]
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TM_6156 : Using low precision processing.
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TM_6307 : DTM error log disabled. 
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TE_7022 : TShmWriter: Initialized
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : DBG_21075 : Connecting to database [orcl], Type [Oracle], User [system]
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TM_6007 : DTM initialized successfully for session [s_m_SCD2]
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | PRE-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : PETL_24006 : Starting data movement.
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [1] lookup caches; [0] on-demand only).
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 2439296 bytes and Block size is 65536 bytes.
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1) : (IS | IS) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS]: Default sql to create lookup cache: SELECT DIM_KEY,ELOC,ENO FROM SCD2_T ORDER BY ENO
+
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1) : (IS | IS) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS] from [178956970] to [178959200].
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1) : (IS | IS) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS] from [357913940] to [357916672].
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS].
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-03-10 08:18:04 : INFO : (6860 | READER_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [6].
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [7].
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : DBG_21438 : Reader: Source is [orcl], Type [Oracle], User [system]
+2025-03-10 08:18:04 : INFO : (6860 | READER_1_1_1) : (IS | IS) : node01 : DBG_21438 : Reader: Source is [orcl], Type [Oracle], User [system]
+2025-03-10 08:18:04 : INFO : (6860 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-10 08:18:04 : INFO : (6860 | TRANSF_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [8].
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [9].
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8147 : Writer: Target is Database [orcl], Type [Oracle], User [system], Bulk Mode [OFF]
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [10].
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:READER_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21682 : Lookup table row count : 3
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21297 : Lookup cache row count : 3
+
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : CMN_1671 : Created new cache files PMLKUP39_4_0_63W64.[dat/idx] in directory C:\Informatica\10.5.2\server\infa_shared\Cache for Lookup [LKPTRANS].
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21641 : LKPTRANS: Index cache size = [178959200], Data cache size = [357916672]
+2025-03-10 08:18:04 : INFO : (6860 | LKPDP_1:TRANSF_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS{{DSQ}}]. Total errors [0] 
+2025-03-10 08:18:04 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SCD2_T :SQL INSERT statement:
+INSERT INTO SCD2_T(DIM_KEY,ENAME,ENO,ELOC,EPHONE_NUM,EF_SDATE,EF_EDATE)  VALUES ( ?, ?, ?, ?, ?, ?, ?) 
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SCD2_T :SQL UPDATE statement:
+UPDATE SCD2_T SET ENAME = ?, ENO = ?, ELOC = ?, EPHONE_NUM = ?, EF_SDATE = ?, EF_EDATE = ? WHERE DIM_KEY = ?
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SCD2_T :SQL DELETE statement:
+DELETE FROM SCD2_T WHERE DIM_KEY = ?
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8147 : Writer: Target is Database [orcl], Type [Oracle], User [system], Bulk Mode [OFF]
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SCD2_T :SQL INSERT statement:
+INSERT INTO SCD2_T(DIM_KEY,ENAME,ENO,ELOC,EPHONE_NUM,EF_SDATE,EF_EDATE)  VALUES ( ?, ?, ?, ?, ?, ?, ?) 
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SCD2_T :SQL UPDATE statement:
+UPDATE SCD2_T SET ENAME = ?, ENO = ?, ELOC = ?, EPHONE_NUM = ?, EF_SDATE = ?, EF_EDATE = ? WHERE DIM_KEY = ?
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SCD2_T :SQL DELETE statement:
+DELETE FROM SCD2_T WHERE DIM_KEY = ?
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8147 : Writer: Target is Database [orcl], Type [Oracle], User [system], Bulk Mode [OFF]
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SCD2_T :SQL INSERT statement:
+INSERT INTO SCD2_T(DIM_KEY,EF_EDATE)  VALUES ( ?, ?) 
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SCD2_T :SQL UPDATE statement:
+UPDATE SCD2_T SET EF_EDATE = ? WHERE DIM_KEY = ?
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table SCD2_T :SQL DELETE statement:
+DELETE FROM SCD2_T WHERE DIM_KEY = ?
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [SCD2_T, SCD2_T, SCD2_T]
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8003 : Writer initialization complete.
+2025-03-10 08:18:04 : INFO : (6860 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8005 : Writer run started.
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Mon Mar 10 08:18:04 2025
+
+Target tables:
+
+     SCD2_T
+     SCD2_T
+     SCD2_T
+
+
+2025-03-10 08:18:04 : INFO : (6860 | READER_1_1_1) : (IS | IS) : node01 : RR_4010 : SQ instance [SQ_SCD2_S] SQL Query [SELECT SCD2_S.ENAME, SCD2_S.ENO, SCD2_S.ELOC, SCD2_S.EPHONE_NUM FROM SCD2_S]
+2025-03-10 08:18:04 : INFO : (6860 | READER_1_1_1) : (IS | IS) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | READER_1_1_1) : (IS | IS) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16019 : Read [3] rows, read [0] error rows for source table [SCD2_S] instance name [SCD2_S]
+2025-03-10 08:18:04 : INFO : (6860 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-10 08:18:04 : INFO : (6860 | TRANSF_1_1_1) : (IS | IS) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_SCD2_S]. Total errors [0] 
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [SCD2_T] at: Mon Mar 10 08:18:04 2025
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [SCD2_T] at: Mon Mar 10 08:18:04 2025
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [SCD2_T] at: Mon Mar 10 08:18:04 2025
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [SCD2_T] at: Mon Mar 10 08:18:04 2025
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8141 : 
+Commit on end-of-data  Mon Mar 10 08:18:04 2025
+===================================================
+
+WRT_8036 Target: SCD2_T (Instance Name: [SCD2_T])
+WRT_8044 No data loaded for this target
+
+
+WRT_8036 Target: SCD2_T (Instance Name: [SCD2_T1])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SCD2_T (Instance Name: [SCD2_T2])
+WRT_8041 Updated rows  - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [SCD2_T] at: Mon Mar 10 08:18:04 2025
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [SCD2_T] at: Mon Mar 10 08:18:04 2025
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8035 : Load complete time: Mon Mar 10 08:18:04 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: SCD2_T (Instance Name: [SCD2_T])
+WRT_8044 No data loaded for this target
+
+
+WRT_8036 Target: SCD2_T (Instance Name: [SCD2_T1])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SCD2_T (Instance Name: [SCD2_T2])
+WRT_8041 Updated rows  - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2025-03-10 08:18:04 : INFO : (6860 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8006 : Writer run completed.
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_SCD2_S] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_SCD2_S] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [SCD2_T, SCD2_T1, SCD2_T2] has completed. The total run time was insufficient for any meaningful statistics.
+
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : CMN_1793 : The index cache size that would hold [3] rows in the lookup table for [LKPTRANS], in memory, is [2800] bytes
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : CMN_1792 : The data cache size that would hold [3] rows in the lookup table for [LKPTRANS], in memory, is [16384] bytes
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | POST-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [11].
+2025-03-10 08:18:04 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Mon Mar 10 08:18:04 2025)
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TE_7216 : Deleting cache files [PMLKUP39_4_0_63W64] for transformation [LKPTRANS].
+2025-03-10 08:18:04 : INFO : (6860 | MAPPING) : (IS | IS) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2025-03-10 08:18:05 : INFO : (6860 | MANAGER) : (IS | IS) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : PETL_24012 : Session run completed successfully.
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6252 : Source Load Summary.
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SQ_SCD2_S] (Instance Name: [SQ_SCD2_S])
+	 Output Rows [3], Affected Rows [3], Applied Rows [3], Rejected Rows [0]
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6253 : Target Load Summary.
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SCD2_T] (Instance Name: [SCD2_T])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SCD2_T] (Instance Name: [SCD2_T1])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SCD2_T] (Instance Name: [SCD2_T2])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6023 : 
+===================================================
+
+2025-03-10 08:18:05 : INFO : (6860 | DIRECTOR) : (IS | IS) : node01 : TM_6020 : Session [s_m_SCD2] completed at [Mon Mar 10 08:18:05 2025].
